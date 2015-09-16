@@ -100,24 +100,7 @@ In such a situation, the protons are assumed unmagnetized and the interactions w
 loose because the finite Larmor radius effect cannot be ignored. 
 Then the ions dynamics can be little affected by the local field of magnetic anomalies. However, as stated above, 
 variation of ion dynamics such as the ion reflection are obviously observed by spacecraft. 
-Plasma flow response to such a small-scale magnetic dipole has been examined in different situations. 
-When L is comparable to or smaller than riL but large enough in comparison with the electron Lamor radius reL, 
-we call this range meso-scale. 
-As one of the feasibility studies of a future interplanetary flight system called magneto-sail, 
-the solar wind interactions with a meso-scale magnetic dipole artificially created by a 
-superconducting cold equipped at a spacecraft has been examined with two-dimensional 
-particle-in-cell plasma simulations [Moritaka et al., 2012]. 
-They confirmed a clear formation of a magnetosphere even in a meso-scale regime. 
-In the interactions between the solar wind and a meso-scale magnetic dipole, 
-it can be assumed that electrons are magnetized while ions are not much at the magnetopause. 
-Then electric field is induced at the dayside magnetosphere by charge separation due to 
-the momentum difference between electrons and ions. 
-The plasma responses to the induced electric field were also examined 
-in the previous simulation studies using particle model 
-[Harnett and Winglee, 2002; Kallio et al., 2012; Poppe et al., 2012; Deca et al., 2015]. 
-Laboratory experiments associated with the plasma interactions with small-scale magnetic dipole 
-were also conducted and electric potential and electric field in the interactions were examined 
-[Wang et al., 2013] [Bamford et al., 2012] [??????, boulder 2015] .
+ Plasma flow response to such a small-scale magnetic dipole has been examined in different situations. When L is comparable to or smaller than riL but large enough in comparison with the electron Lamor radius reL, we call this range meso-scale. As one of the feasibility studies of a future interplanetary flight system called magneto-sail, the solar wind interactions with a meso-scale magnetic dipole artificially created by a superconducting cold equipped at a spacecraft has been examined with two-dimensional particle-in-cell plasma simulations [Moritaka et al., 2012]. They confirmed a clear formation of a magnetosphere even in a meso-scale regime. In the interactions between the solar wind and a meso-scale magnetic dipole, it can be assumed that electrons are magnetized while ions are not much at the magnetopause. Then electric field is induced at the dayside magnetosphere by charge separation due to the momentum difference between electrons and ions. The plasma responses to the induced electric field were also examined in the previous simulation studies using particle model [Harnett and Winglee, 2002; Kallio et al., 2012; Poppe et al., 2012; Deca et al., 2015]. Laboratory experiments associated with the plasma interactions with small-scale magnetic dipole were also conducted and electric potential and electric field in the interactions were examined [Wang et al., 2013] [Bamford et al., 2012] [??????, boulder 2015] .
  As pointed in many previous studies, plasma kinetics should be included in modeling the interactions between the solar wind and the magnetic anomalies because L is smaller than riL. In this letter, by performing three-dimensional electromagnetic particle-in-cell simulations we will describe the spatial structure of the boundary current layer in the mini-magnetosphere formed above a magnetic anomaly. The boundary current in the mini-magnetosphere mainly consists of electron current. Therefore we particularly focus on the electron dynamics in the boundary layer in the three-dimensional simulation results.  In Section II, we describe the simulation model used in this study. In our model we mainly examined a case of riL/L=4 for the magnetic anomaly. In Section III, we describe the spatial variation of plasma density and the current density obtained in the simulations. We also examine the electron dynamics in the boundary layer in the three-dimensional domain. In Section IV, we summarize the results.  
 
 
