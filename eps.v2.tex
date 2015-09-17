@@ -10,6 +10,8 @@
 \usepackage{lineno}
 \linenumbers*[1]
 
+\newcommand{\bvec}[1]{\mbox{\boldmath $#1$}}
+
 \setcounter{page}{1}
 \title{Three-dimensional structure of the boundary current in a mini-magnetosphere above a lunar magnetic anomaly 
 }
@@ -147,21 +149,6 @@ which are for papers with one, two and more than two authors.
 You may also write the citations like this
 \citep[e.g.][]{Miller1998a,Miller1998b,MS2001,Milleretal1999}.
 
-Figures should be uploaded as separate files and 
-should not be embedded in the manuscript.
-A figure is referenced as ``Figure 1''.
-
-Equations with line numbers can be written as
-\begin{linenomath}
- \begin{equation}
-  \sin^2 \theta + \cos^2 \theta = 1 ,
- \end{equation}
-\end{linenomath}
-between \texttt{\textbackslash begin\{linenomath\}} and
-\texttt{\textbackslash end\{linenomath\}}.
-
-
-
 
 \section{Methods}
 
@@ -173,7 +160,7 @@ is refereed to as a model of magnetic anomaly.
 In the Reiner Gamma case, the magnetic dipole moment is almost parallel to the lunar surface. 
 The dipole center is approximately located at a depth of 10 km under the ground. 
 The amount of the dipole moment is ***.
-Figure 1 shows a three-dimensional simulation model. In the positive x direction, 
+Figure \ref{fig:1} shows a three-dimensional simulation model. In the positive x direction, 
 we have a plasma flow representing the solar wind. 
 The static magnetic field representing IMF is also introduced in the simulation domain. 
 In this study, the direction of IMF is northward. 
@@ -186,7 +173,7 @@ We set the ratio of the speed of light $V_\mathrm{c}$ to $ V_\mathrm{flow}$ to b
 We set the ratio of the electron thermal velocity $V_\mathrm{th}$ to $V_\mathrm{flow}$ to be 2.5, 
 which is almost the same as the actual ratio for the solar wind. 
 When $ r_\mathrm{iL} /L = 4$, the ratio of the electron plasma frequency to the cyclotron frequency, 
-ωpe/Ωpe, was set to be 250 at a distance L from the dipole center. 
+$\omega_\mathrm{pe} / \Omega_\mathrm{e} = 4$, was set to be 250 at a distance L from the dipole center. 
 The simulation domain consists of $256 \times 256 \times 256$ cells, and the length of each side of 
 the domain was approximately $5L$. 
 The cell size dx corresponds to $\lambda_\mathrm{D}$, where $\lambda_\mathrm{D}$ 
@@ -205,7 +192,7 @@ We performed the simulation to iterate until the spatial variation of the plasma
 \section{Results and Discussion}
 
 
-Figure 2 shows contour maps of the number densities of electrons and ions and the charge 
+Figure \ref{fig:2} shows contour maps of the number densities of electrons and ions and the charge 
 density obtained at the steady state in the meridian plane which includes the sunward direction. 
 As shown in the left two panels, a clear magnetosphere which is a plasma evacuated region is 
 created above the magnetic anomaly region as studied in the previous works such as *******. 
@@ -228,13 +215,13 @@ while the boundary layer surrounding the ion rich region is shown in blue indica
 Because of this charge separation at the boundary layer, intense electric field is induced 
 as shown in the arrows pointing radially to the outward direction to the magnetosphere.  (2015/09/11)
 
-Figure 3 shows contour maps of f the number densities of electrons and ions and the charge density 
-in the equatorial plane in the same manner as in Figure 2. 
+Figure \ref{fig:3} shows contour maps of the number densities for electrons and ions and the charge density 
+in the equatorial plane in the same manner as in Figure \ref{fig:3}. 
 One of the interesting features we notice is asymmetric profile of the magnetosphere. 
 As shown in panels (a) and (b), a high density region is created 
 at the upper side of the boundary of the magnetosphere which corresponds to the dawn side. 
 Panel (c) shows the charge density. 
-The profile is overall similar to that in panel (c) in Figure 2. Ions which have larger inertia 
+The profile is overall similar to that in panel (c) in Figure \ref{fig:2}. Ions which have larger inertia 
 than electrons reach the inner magnetosphere and an ion rich region is created. 
 As shown in panels (a) and (b), the charge density also has an asymmetric profile. 
 In the dawn region, electron rich region is locally created near the lunar ground. 
@@ -242,7 +229,7 @@ Due to this charge separation in the boundary region of the magnetosphere,
 intense electric field pointing outward is also found in the equatorial plane. 
 Because of the electron rich region at the dawn side near the surface, some electric fields point there. 
 
-Figure 4 shows the contour maps of the total current density at the different latitudes. 
+Figure \ref{fig:4} shows the contour maps of the total current density at the different latitudes. 
 Panels (a) and (b) show the profiles in the equatorial plane and in high latitude plane of z=*** respectively. 
 The vector arrays of the current components in the $x-y$ plane are superimposed on the contour maps. 
 In the equatorial plane shown in panel (a), 
@@ -253,33 +240,80 @@ intense current is found at the dawn side.
 In panel (b), however, the direction of the most intense current is different from that in panel (a). 
 It is observed near the lunar surface pointing to the dust side. 
 To examine the detail of the current, we decompose the total current into electron current and 
-ion current as shown in Figure 5. 
+ion current as shown in Figure \ref{fig:5}. 
 We plot the electron and ion current densities measured along a line of $y=0$ in black and red, respectively. 
 Panels (a) and (b) show the profiles in the different latitudes in the same manner as shown in the previous figure. 
 As shown in the both panels, the ion current shown in red is relatively small in comparison with the electron current. 
 It implies that the boundary current is dominated by the electron current. 
 In panel (a), the ion current has a peak at the inner magnetosphere where almost no electrons are found. 
-The current flows in the positive y direction. In panel (b) corresponding to the high latitude region, 
+The current flows in the positive $y$ direction. In panel (b) corresponding to the high latitude region, 
 the electron current has two peaks in the opposite directions. 
 One found around x=*** point to the positive y direction while the other found around $x=**$ 
 which is close to the ground has a much higher peak pointing to the negative y direction. 
-These profiles agree with the vector plots shown in Figure 4. 
+These profiles agree with the vector plots shown in Figure \ref{fig:4}. 
 To see the overall profile of the boundary current, 
-we plot a all sky view of the electron current with the vector arrays in Figure 5 
+we plot a all sky view of the electron current with the vector arrays in Figure \ref{fig:5} 
 which is observed from the ground in the magnetic anomaly region. 
-As shown in the figure, two current volteces are found in each hemisphere. 
-In the l
+As shown in the figure, 
+two current voltices are found in the upper and lower regions 
+with respect to the equatorial plane which is located in the middle.
+As stated above, 
+the electron current which flows from the dawn to the dusk side in the equatorial and low latitude region
+changes the flow direction and returns back to the dawn region in the high latitude region.
+In other words, it seems that the electron current makes a loop in the both hemispheres. 
+
+\section{Discussion}
+
+We found that the boundary current mainly consists of electron current. 
+In the electron current, cross-field component which is along the $y$ direction is dominant. 
+Meanwhile $r_\mathrm{eL}$ is much smaller than $L$ in the present case. 
+In this situation, the cross-field component of the current is due to the drift motion of electrons.
+Here we examine the drift motion of electrons in the equatorial plane. 
+As observed in Figure \ref{fig:2} and \ref{fig:3}, we have intense electric field poinging in the outward direcion
+in the boundary layer region. 
+Considering we have dipole magnetic field in the negtive $z$ direction in the present case, 
+the direction of $E \times B$ drift motion is along the negative $y$ direction which corresponds to the 
+dawn to the dusk direction.  
+Figure \ref{fig:6} shows spatial variation of the $E \times B$ velocity along the ling of $y=z=0$. 
+ 
+\begin{linenomath}
+ \begin{equation}
+  m_\mathrm{e} n_\mathrm{e} \frac{d \bvec{v}}{dt}
+    = en_\mathrm{e}(\bvec{E} + \bvec{v} \times \bvec{B}) - \nabla P_\mathrm{e}
+ \end{equation}
+\end{linenomath}
+
+When we assume the steady state, $\partial{\bvec{v}}/\partial{t} = 0 $ in the above equation. Then 
+the following equation is obtained.
+
+\begin{linenomath}
+ \begin{equation}
+  m_\mathrm{e} n_\mathrm{e} v_\mathrm{x} \frac{\partial v_\mathrm{x}}{\partial t}
+    = en_\mathrm{e} (E_x + v_y B_z) -  K T_\mathrm{e} \frac{\partial n_\mathrm{e}} {\partial x}
+ \end{equation}
+\end{linenomath}
+From this relation, we can obtain $v_y$ as follows.
+
+
+\begin{linenomath}
+ \begin{equation}
+  v_{y} = 
+   -\frac{E_x}{B_z} + \frac {m_\mathrm{e}}{eB_z}v_x\frac{\partial v_x}{\partial x}
+   +\frac{KT_e}{en_e B_z} \frac{\partial n_\mathrm{e}} {\partial x}
+ \end{equation}
+\end{linenomath}
+
+In the above equation, 
+the effects of electron kinetic such as $v_x$ component as well as 
+density variation $\nabla n_\mathrm{e}$ along the $x$ direction is taken into consideration. 
+By using the simulation data such as $B_z$, $E_x$, $n_e$, and $v_x$ obtained at each grid point, 
+we can estimate $v_y$ valuealong the line of our interest with the above equation. 
+The estimated $v_y$ values are plotted with a solid line while $v_y$ values obtained in the simulation is plotted in a dashed line.  (wait for the Matsubara-kun's result.)
 
 
 
 
 
-
-
-
-\subsection{Subsection}
-
-\subsubsection{Subsubsection}\strut
 
 \section{Conclusions}
 
@@ -647,144 +681,29 @@ Tabular data provided as additional files can be uploaded
 as an Excel spredsheet (.xls) or comma separeted values (.csv).
 As with all files, please use the standard file extensions.
 
-\section{Preparing additional files}
+%% - Figure 1-
+\begin{figure}
+\caption{figure caption 1}\label{fig:1}
+\end{figure}
 
-Although \textbf{Earth, Planets and Space} does not restrict
-the length and quantity of data included in an article,
-we encourage authors to provide datasets, tables, movies,
-or other information as additional files.
+%% - Figure 2-
+\begin{figure}
+\caption{figure caption 2}\label{fig:2}
+\end{figure}
 
-Please note:
-All Additional files \textbf{will be published} alogng with the article.
-Do not include files such as patient consent forms,
-certificates of language editing,
-or revised version of the main manuscript document with tracked changes.
-Such files should be sent by email to
-editorial@earth-planets-space.com,
-quoting the Manuscript ID number.
-Results that would otherwise be indicated as ``data not shown''
-can and should be included as additional fiels.
-Since many weblinks and URLs rapidly becom broken,
-\textbf{Earth, Planets and Space} requires that
-supporting data are included as additional fiels,
-or deposited in a recognized repository.
-Please do not link to data on a personal/deartmental website.
-The maximum file size for additional files is 20 MB each,
-and files wil be virus-scanned on submission.
+%% - Figure 3-
+\begin{figure}
+\caption{figure caption 3}\label{fig:3}
+\end{figure}
 
-Additional files can be in any format,
-and will be downloadable from the final published article
-as supplied by the author.
-We recommend CSV rather than PDF for tabular data.
-Certain supported files formats are recognized and
-can be displayed to the user in the browser.
-These include most movie formats
-(for uses with Quicktime plugin),
-mini-websites prepared according to our guidelines,
-chemical structure files (MOL, PDB), geographic data files (KML).
-If additional material is provided, please list the following
-information in a separate section of the manuscript text:
-\begin{itemize}
-\item File name (e.g. Additional file 1)
-\item File format including the correct fiel extension
-for example .pdf, .xls, .txt, .pptx
-(including name and a URL of an appropriate viewer if format is unusual)
-\item Title of data
-\item Description of data
-\end{itemize}
-Additional files should be named ``Additional file 1'' and so on
-and should be referenced explicitly by file name within
-the body of the article, e.g. `An additional movie file
-shows this in more detail [see Additional file 1]'.
+%% - Figure 4-
+\begin{figure}
+\caption{figure caption 4}\label{fig:4}
+\end{figure}
 
-\noindent
-\textbf{Additional file formats}
-
-Ieally, file formats for addtional files should be platform-specific,
-and should be viewable using free or widely availabel tools.
-The following are examples of suitable formats.
-\begin{itemize}
-\item Additional documentation
-  \begin{itemize}
-    \item PDF (Adobe Acrobat)
-  \end{itemize}
-\item Animations
-  \begin{itemize}
-    \item SWF (Shockwave Flush)
-  \end{itemize}
-\item Movies
-  \begin{itemize}
-    \item MP4 (MPEG 4)
-    \item MOV (Quicktime)
-  \end{itemize}
-\item Tabular data
-  \begin{itemize}
-    \item XLS, XLSX (Excel Spreasheet)
-    \item CSV (Comma separated values)
-  \end{itemize}
-\end{itemize}
-As with figure files, files should be given the standard file extensions.
-
-\noindent
-\textbf{Mini-websites}
-
-Small self-contained websites can be submitted as additional files,
-in such a way that they will be browsable from within the
-full text HTML version of the article.
-In order to do this, please follow these instructions:
-\begin{enumerate}
-\item[1.]
-Create a folder containing a starting file called index.html
-(or index.htm) in the root.
-\item[2.]
-Put all files necessary for viewing the mini-website
-within the folder, or sub-folders.
-\item[3.]
-Ensure that all links are relative
-(ie ``images/picture.jpg'' rather than
-``/images/picture.jpg'' or
-``http://yourdomain.net/images/picture.jpg'' or
-``C:$\backslash$Documents and Settings$\backslash$username$\backslash$My Documents$\backslash$mini-website$\backslash$images$\backslash$picture.jpg'') and
-no link is longer than 255 characters.
-\item[4.]
-Access the index.html file and browse around the mini-website,
-to ensure that the most commonly used browsers
-(Internet Explorer and Firefox) are able to view
-all parts of the mini-website without probles,
-it is ideal to check this on a different machine.
-\item[5.]
-Compress the folder into a ZIP, check the file size is under 20 MB,
-ensure that index.html is in the root of the ZIP,
-and that the file has .zip extension, then
-submit as an additional file with your article.
-\end{enumerate}
-For further details, please refer to the following web pages.
-
-http://www.earth-planets-space.com/authors/instructions/fullpaper
-
-http://www.earth-planets-space.com/authors/instructions/frontierletter
-
-http://www.earth-planets-space.com/authors/instructions/letter
-
-http://www.earth-planets-space.com/authors/instructions/technicalreport
-
+%% - Figure 5-
+\begin{figure}
+\caption{figure caption 5}\label{fig:5}
+\end{figure}
 
 \end{document}
-
-%%
-%% Table
-%%
-\begin{table}[t]
-\renewcommand{\arraystretch}{1.2}
-\vspace{-3mm}
-\caption{Table caption.}
-\vspace{-1mm}
-\begin{center}
-\begin{tabular}{ccc} \hline
-Left& Center & Right\\ \hline
-xxx & xxx &xxx \\ \hline
-xxx & xxx &xxx \\ \hline
-xxx & xxx &xxx \\ \hline
-\end{tabular}
-\end{center}
-\end{table}
