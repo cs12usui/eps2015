@@ -66,13 +66,13 @@ and the high latitude is very characteristic in the mini-magnetosphere created a
 }
 
 
-\keywords{Three to ten keywords representing the main content of the article.}
+\keywords{magnetic anomaly, lunar environment, PIC simulation, mini-magnetosphere}
 
 \begin{document}
 
 \maketitle
 
-\section{Background (or Introduction)}
+\section{Introduction}
 The lunar plasma environment has been intensively investigated with the recent in situ observation 
 by scientific spacecraft such as KAGUYA[参考文献] and Chandrayaan-1[参考文献]. 
 In addition to the macroscopic structure of plasma distribution such as the wake structure 
@@ -262,6 +262,13 @@ the electron current which flows from the dawn to the dusk side in the equatoria
 changes the flow direction and returns back to the dawn region in the high latitude region.
 In other words, it seems that the electron current makes a loop in the both hemispheres. 
 
+Figure \ref{fig:6} shows a contour map of the $y$ component of the electron current density in a meridian plane.
+As discussed earlier, the electron current is dominant in the positive $y$ direction which corresponds to the
+dawn direction in the low latitude region including the equatorial region.
+In the high latitude region, however, the electron current is reversed to the negative $y$ direction. 
+This reverse of current can cause a current loop connecing between the lower and higher latitude 
+as shown in the previous figure.  
+
 \section{Discussion}
 
 We found that the boundary current mainly consists of electron current. 
@@ -308,7 +315,16 @@ the effects of electron kinetic such as $v_x$ component as well as
 density variation $\nabla n_\mathrm{e}$ along the $x$ direction is taken into consideration. 
 By using the simulation data such as $B_z$, $E_x$, $n_e$, and $v_x$ obtained at each grid point, 
 we can estimate $v_y$ valuealong the line of our interest with the above equation. 
-The estimated $v_y$ values are plotted with a solid line while $v_y$ values obtained in the simulation is plotted in a dashed line.  (wait for the Matsubara-kun's result.)
+The estimated $v_y$ values are plotted with a solid line while $v_y$ values obtained in the simulation 
+is plotted in a dashed line.  (wait for the Matsubara-kun's result.)
+
+
+As shown in Figure \ref{fig:5} and \ref{fig:6} 
+the direction of the electron current in the high latitude region 
+is opposite to that in the low latitude region.
+As discussed above, the electron current is maily due to the electron $\bvec{E} \times \bvec{B}$ 
+drift motion. In this aspect, the direction of the electron $\bvec{E} \times \bvec{B}$ motion is 
+reversed in the high latitude region.
 
 
 
@@ -357,20 +373,6 @@ Note this section should not be used
 to describe any competing interests.
 
 \acknowledgments{%
-Please acknowledge anyone who contributed towards the article
-by amking substantial contributions to conception, design,
-acquisition of data, or analysis and interpretation of data,
-or who was involved in drafting the manuscript or
-revising it critically for important intellectual content,
-but who does not meet the criteria for authorship.
-Please also include the source(s) of funding for each author,
-and for the manuscript preparation.
-Authors must descirbe the role of the funding body,
-iif any, in the collection, analysis, and interpretation of data;
-in the writing of the manuscript,
-and in the decision to submit the manuscript essential for the study.
-If a language editor has made significant revision of the manuscript,
-we recommend that you acknowledge the editor by name, where possible.
 
 Authors should obtain permission to acknowledge
 from all those mentioned in the Acknowledgements again.
@@ -683,27 +685,33 @@ As with all files, please use the standard file extensions.
 
 %% - Figure 1-
 \begin{figure}
-\caption{figure caption 1}\label{fig:1}
+\caption{Three-dimensional simulation model}\label{fig:1}
 \end{figure}
 
 %% - Figure 2-
 \begin{figure}
-\caption{figure caption 2}\label{fig:2}
+\caption{Conour maps of electron and ion densities and the charge density 
+obtained at the steady state in a meridian plane}\label{fig:2}
 \end{figure}
 
 %% - Figure 3-
 \begin{figure}
-\caption{figure caption 3}\label{fig:3}
+\caption{Conour maps of electron and ion densities and the charge density 
+obtained at the steady state in the equatorial plane}\label{fig:3}
 \end{figure}
 
 %% - Figure 4-
 \begin{figure}
-\caption{figure caption 4}\label{fig:4}
+\caption{Contour maps of current densities in the equatorial plane and in a plane of $z=???$}\label{fig:4}
 \end{figure}
 
 %% - Figure 5-
 \begin{figure}
-\caption{figure caption 5}\label{fig:5}
+\caption{Electron and ion current densities along $y=z=0$ and $y=0, z=???$ }\label{fig:5}
 \end{figure}
 
+%% - Figure 6-
+\begin{figure}
+\caption{All skyview map of electron current densities with arrows }\label{fig:6}
+\end{figure}
 \end{document}
